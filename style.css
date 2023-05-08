@@ -1,0 +1,29 @@
+.columna {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 320px;
+  grid-gap: 10px;
+}
+
+.fila {
+  height: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fila1 {
+  background-color: #ff9a8d;
+  grid-column-start: 1;
+}
+
+.fila2 {
+  background-color: #ffd6a5;
+  grid-column-start: 1;
+}
+
+.fila3 {
+  background-color: #caffbf;
+  grid-column-start: 1;
+}
