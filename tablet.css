@@ -1,0 +1,29 @@
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(321px, 1fr));
+  grid-template-rows: repeat(3, minmax(321px, 1fr));
+  gap: 10px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.grid-item:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.grid-item:nth-child(3n+1) {
+  background-color: #aaf;
+}
+
+.grid-item:nth-child(3n+2) {
+  background-color: #ffa;
+}
